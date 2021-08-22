@@ -1,5 +1,4 @@
 # Traveling Salesman Problem with Genetic Aglrotihm
-
 "Solving" the TSP via implementing Genetic/Memetic Algorithm with Python.
 
 ### Input:
