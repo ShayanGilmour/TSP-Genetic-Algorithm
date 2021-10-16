@@ -28,7 +28,7 @@ Outputs one integer: The length of the shortest cycle. And the sequence of the f
 The program reads the input from a file; The file `bayg29.tsp`, contains a sample input, consisting of 29 vertices; I've downloaded this sample from [Heidelberg University' Site](http://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/). The optimal answer for this test case is `1610`, which this code can almost always find the answer of 1610 (the optimal answer) **in less than 5 seconds**.
 
 ## Update:
-I've implemented my improvised version of Genetic Algortihm, which is available at [this link.](https://github.com/ShayanPey/N-Queens).
+I've implemented my improvised version of Genetic Algortihm, which is available at [this link](https://github.com/ShayanPey/N-Queens).
 At first level, it randomly generates some permutations, and let them evolve for a little bit (Not long.) Then it saves this "little evolved" population. Then again, it generates some random permutations, and again let that evolve for a little and so on... It repeats this process several times. So, this prevents the populations to get "narrow".
 
 At second and levels above, it randomly chooses from the previous level (just like first level, but instead of generating new permutations, it chooses from previous level.) And let them evolve a little bit but not much! And so on...
